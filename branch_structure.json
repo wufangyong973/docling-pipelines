@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/frontend-eslint-ci",
+    "fix/elyra-category-labels",
+    "fix/node-execution-logs-ordering",
+    "fix/pii-hap-provider-config-validation",
+    "fix/remove-docidhash-dead-code",
+    "main",
+    "origin",
+    "poc-kafka-docpipe"
+  ],
+  "parent": {
+    "feat/frontend-eslint-ci": "main",
+    "fix/elyra-category-labels": "main",
+    "fix/node-execution-logs-ordering": "main",
+    "fix/pii-hap-provider-config-validation": "main",
+    "fix/remove-docidhash-dead-code": "main",
+    "main": null,
+    "origin": "main",
+    "poc-kafka-docpipe": "main"
+  },
+  "order": [
+    "main",
+    "feat/frontend-eslint-ci",
+    "fix/elyra-category-labels",
+    "fix/node-execution-logs-ordering",
+    "fix/pii-hap-provider-config-validation",
+    "fix/remove-docidhash-dead-code",
+    "origin",
+    "poc-kafka-docpipe"
+  ]
+}
